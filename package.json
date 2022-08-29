@@ -1,0 +1,23 @@
+{
+  "name": "ca1_fed2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoamiStay/CA1_FED2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MoamiStay/CA1_FED2/issues"
+  },
+  "homepage": "https://github.com/MoamiStay/CA1_FED2#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
+}
