@@ -10,40 +10,48 @@
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
-    <main class="container p-3">
-      <div class="row">
-        <div class="col-md-5">
-          <h1 class="text-center">LOGO</h1>
-          <div class="form-floating mb-3">
-            <input
-              type="text"
-              class="form-control"
-              id="floatingInput"
-              placeholder="name@example.com"
-            />
-            <label for="floatingInput">Username</label>
+    <main>
+      <div class="container p-3 login-box align-items-center mt-5">
+        <form class="col-md-5 mt-5">
+          <div>
+            <label for="validationDefaultUsername" class="form-label"
+              >Username</label
+            >
+            <div class="input-group">
+              <span class="input-group-text" id="inputGroupPrepend2">@</span>
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefaultUsername"
+                aria-describedby="inputGroupPrepend2"
+                required
+              />
+            </div>
           </div>
-          <div class="form-floating">
+
+          <div class="">
+            <label for="validationDefault01" class="form-label">Password</label>
             <input
               type="password"
               class="form-control"
-              id="floatingPassword"
-              placeholder="Password"
+              id="validationDefault01"
+              required
             />
-            <label for="floatingPassword">Password</label>
+            <div class="row justify-content-between">
+              <p class="col">Registrer</p>
+              <p class="col">Forgot password</p>
+            </div>
           </div>
-          <div class="row p-3">
+
+          <div class="col-12">
+            <a href="home.html"
+              ><button class="btn btn-primary" type="submit">
+                submit form
+              </button></a
+            >
             <a href="home.html" class="btn btn-primary">Log In</a>
           </div>
-          <div class="row justify-content-between">
-            <p class="col">Registrer</p>
-            <p class="col">Forgot password</p>
-          </div>
-        </div>
-
-        <div class="col-md-7">
-          <h2>Promotional stuff</h2>
-        </div>
+        </form>
       </div>
     </main>
 
@@ -59,3 +67,39 @@
     ></script>
   </body>
 </html>
+
+<!-- 
+<div class="row">
+  <div class="col-md-5">
+    <h1 class="text-center">LOGO</h1>
+    <div class="form-floating mb-3">
+      <input
+        type="text"
+        class="form-control"
+        id="floatingInput"
+        placeholder="name@example.com"
+      />
+      <label for="floatingInput">Username</label>
+    </div>
+    <div class="form-floating">
+      <input
+        type="password"
+        class="form-control"
+        id="floatingPassword"
+        placeholder="Password"
+      />
+      <label for="floatingPassword">Password</label>
+    </div>
+    <div class="row p-3">
+      <a href="home.html" class="btn btn-primary">Log In</a>
+    </div>
+    <div class="row justify-content-between">
+      <p class="col">Registrer</p>
+      <p class="col">Forgot password</p>
+    </div>
+  </div>
+
+  <div class="col-md-7">
+    <h2>Promotional stuff</h2>
+  </div>
+</div> -->

@@ -10,6 +10,11 @@ $primary: rgb(236, 157, 46);
     flex-grow: 0; 
 }
 
+.login-box {
+    max-width: 600px;
+    min-height: 600px;
+}
+
 .pf-image {
     max-width: 8rem;
     display: flex;
